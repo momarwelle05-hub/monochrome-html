@@ -26,7 +26,91 @@ body{
 .hero{
     background-image: url(bg-image-hero.png); height: 500px;
     color: white;
+    background-position: center;
 }
-.hero > div{
-    margin: 10px;
+
+.container {
+    padding: 40px 0;
+    width: 70vw;
+    margin: auto;
+
+}
+.hero2{
+    padding-top: 150px;
+}
+.class1{
+    color:black;
+    background-position: center;
+    justify-content:space-between;
+     width: 70vw;
+    margin: auto;
+    padding: 4%;
+
+}
+.hero4{
+    display: flex;
+    justify-content:space-between;
+}
+.class2{
+    background-image: url(bg-image-2.png); height: 400px;
+    color: white;
+    background-position: center;
+    margin: auto;
+}
+.bouton{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: black;
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 67px;
+}
+.bouton1{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.bouton2{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.bouton3{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    padding: 8px;
+    background-color: black;
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.project{
+    color:black;
+    background-position: center;
+    justify-content:space-between;
+     width: 70vw;
+    margin: auto;
+    padding: 4%;
+}
+.project5{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
